@@ -1,7 +1,3 @@
-import 'reflect-metadata';
-import express from 'express';
-import './database';
+import { app } from './app';
 
-const app = express();
-
-app.listen(3000, () => console.log('Server is running'));
+app.listen(3000, () => console.log('\nServer is running!\n'));
